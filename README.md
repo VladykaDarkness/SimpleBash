@@ -1,47 +1,7 @@
 # Simple Bash Utils
 
+School21 project.
 Development of Bash text utilities: cat, grep.
-
-The russian version of the task can be found in the repository.
-
-## Contents
-
-0. [Preamble](#preamble)
-1. [Chapter I](#chapter-i) \
-   1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii) \
-   2.1. [Information](#information)
-3. [Chapter III](#chapter-iii) \
-   3.1. [Part 1](#part-1-working-with-the-cat-utility)  
-   3.2. [Part 2](#part-2-working-with-grep-utility)  
-   3.3. [Part 3](#part-3-bonus-implementation-of-some-grep-utility-flags)  
-   3.4. [Part 4](#part-4-bonus-implementation-of-grep-utility-flag-combinations)
-
-
-## Preamble
-
-![simple_bash_utils](misc/eng/images/bashutils.png)
-
-It was an ordinary grey autumn day in 1993. You came home from work at Hewlett-Packard, feeling a little tired. You lived in a small two-bedroom apartment on the outskirts of N town. In the fridge was a low-alcohol drink called "Pivo". You took the drink and a bag of crackers, then went to your little corner, to your Dell computer.
-
-`*Click*` - the power button was pressed. A few minutes of boot loading and... yeah, it feels good. You always get that feeling when you switch on a computer. A few seconds of undisturbed pleasure and you opened the Mosaic browser. Then you went to your favourite forum and read a few threads while sipping a Pivo. Suddenly you come across a very interesting discussion that started with the following message:
-
-> Hello everybody out there using minix -
->
->I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones. This has been brewing since april, and is starting to get ready. I'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).
->
->I've currently ported bash(1.08) and gcc(1.40), and things seem to work. This implies that I'll get something practical within a few months, and I'd like to know what features most people would want. Any suggestions are welcome, but I won't promise I'll implement them :-)
->
->Linus (torvalds@kruuna.helsinki.fi)
->
->PS. Yes - it's free of any minix code, and it has a multi-threaded fs. It is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(.
->
->— Linus Torvalds
-
-"Very interesting," you thought to yourself. As you scrolled down, you noticed that bash wasn't very well ported, and that some functions didn't work. 
-In particular, there were problems with the word processing utilities: cat and grep.
-"Interesting task, and it'd be great to help this Linus Torvalds guy," you said aloud, and immediately posted a message in the thread saying that you were already working on it. 
-Well, let's get started!
 
 ## Chapter I
 
@@ -144,9 +104,3 @@ Bonus assignment for extra points. You need to develop the grep utility:
 - Only pcre or regex libraries can be used for regular expressions
 - The source, header and make files must be placed in the src/grep/ directory
 - The resulting executable file must be placed in the directory src/grep/ and named s21_grep
-
-
-
-💡 [Tap here](https://forms.yandex.ru/cloud/64144c1bc09c020aafe7a4f3/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
-
-
