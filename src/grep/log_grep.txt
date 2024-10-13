@@ -1,0 +1,5 @@
+
+./s21_grep -cl ke test.txt
+./s21_grep -lc ke test.txt
+./s21_grep -vo ke test.txt
+./s21_grep -ov ke test.txt
