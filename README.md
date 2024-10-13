@@ -1,6 +1,6 @@
 # Simple Bash Utils
 
-School21 project.
+This is the project of School21.  
 Development of Bash text utilities: cat, grep.
 
 ## Chapter I
